@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timpraz</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="bg-light text-light">
+  <header id="header">
+    <nav class="navbar navbar-dark bg-success navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#header">Timpraz</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Damas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Caballeros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Niños</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+              </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="https://wallpapercave.com/wp/wp7384692.jpg" class="d-block w-100" alt="Foto de Mujer ">
+          <div class="carousel-caption d-none d-md-block bg-dark p-2 text-light bg-opacity-25">
+            <h5>Productos para </h5>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#anime1">
+              Mujeres
+            </button>
+            <p></p>
+          </div>
+          <div class="modal fade text-dark" id="anime1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="anime1">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...1
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="https://wallpapercave.com/dwp1x/wp10668549.jpg" class="d-block w-100"
+            alt="Foto de hombre">
+          <div class="carousel-caption d-none d-md-block bg-dark p-2 text-light bg-opacity-25">
+            <h5>Productos para </h5>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#anime2">
+              Hombres
+            </button>
+            <p></p>
+          </div>
+          <div class="modal fade text-dark" id="anime2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="anime2">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...2
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="https://wallpapercave.com/wp/wp6913166.jpg" class="d-block w-100" alt="Anime">
+          <div class="carousel-caption d-none d-md-block bg-dark p-2 text-light bg-opacity-25">
+            <h5>Productos para </h5>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#anime3">
+              Niños
+            </button>
+            <p></p>
+          </div>
+          <div class="modal fade text-dark" id="anime3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="anime3">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...3
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+    <section class="py-5">
+      <div class="row g-4 mx-auto container">
+        <div class="col-md-4">
+          <article class="card bg-dark text-white">
+            <img src="https://s.alicdn.com/@sc04/kf/H19811a91eee64ed2815de223af7e783dc.jpg"
+              class="card-img-top" alt="Anime">
+            <div class="card-body">
+              <h5 class="card-title">Ropa Interior</h5>
+              <p class="card-text">Lo ultimo en Ropa interior para Mujeres, Hombres y Niños.</p>
+              <a href="#" class="btn btn-primary">Ver productos</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="card bg-dark text-white">
+            <img src="https://i.pinimg.com/550x/9e/f1/d8/9ef1d83080f0fc5691a44e11a333c000.jpg" class="card-img-top" alt="Anime">
+            <div class="card-body">
+              <h5 class="card-title">Camisas</h5>
+              <p class="card-text">Lo ultimo en camisas para Mujeres, Hombres y Niños.</p>
+              <a href="#" class="btn btn-primary">Ver productos</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="card bg-dark text-white">
+            <img src="https://ideaprint.pe/2267-medium_default/polo-blanco-basico.jpg" class="card-img-top" alt="Anime">
+            <div class="card-body">
+              <h5 class="card-title">Polos </h5>
+              <p class="card-text">Lo ultimo en polos para Mujeres, Hombres y Niños.</p>
+              <a href="#" class="btn btn-primary">Ver productos</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="card bg-dark text-white">
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pantalones-vaqueros-hombre-1588575521.jpg" class="card-img-top"
+              alt="Anime">
+            <div class="card-body">
+              <h5 class="card-title">Pantalones</h5>
+              <p class="card-text">Lo ultimo en pantalones para Mujeres y Niñas.</p>
+              <a href="#" class="btn btn-primary">Ver productos</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="card bg-dark text-white">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/61GAi4F7LzS._AC_UL604_SR604,400_.jpg" class="card-img-top" alt="Anime">
+            <div class="card-body">
+              <h5 class="card-title">Vestidos</h5>
+              <p class="card-text">Lo ultimo en vestidos para Mujeres, Hombres y Niños.</p>
+              <a href="#" class="btn btn-primary">Ver productos</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="card bg-dark text-white">
+            <img src="https://static.turbosquid.com/Preview/2020/11/04__15_51_25/SI.png93ACB1EE-AC6F-41E5-923B-198A0BDBD078Large.jpg" class="card-img-top" alt="Anime">
+            <div class="card-body">
+              <h5 class="card-title">Shorts</h5>
+              <p class="card-text">Lo ultimo en shorts para Mujeres, Hombres y Niños.</p>
+              <a href="#" class="btn btn-primary">Ver productos</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer
+  class="text-center text-lg-start text-white"
+  style="background-color: #198754"
+  >
+<!-- Grid container -->
+<div class="container p-4 pb-0">
+<!-- Section: Links -->
+<section class="">
+<!--Grid row-->
+<div class="row">
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+    <h6 class="text-uppercase mb-4 font-weight-bold">
+      Timpraz
+    </h6>
+    <p>
+        Somos una empresa formada en la ciudad de nasca 
+        desde hace más de 20 años vendiendo ropa de marca y 
+        a un buen precio.
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <hr class="w-100 clearfix d-md-none" />
+
+  <!-- Grid column -->
+  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+    <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+    <p>
+      <a class="text-white">Ropa interior</a>
+    </p>
+    <p>
+      <a class="text-white">Camisas</a>
+    </p>
+    <p>
+      <a class="text-white">Vestidos</a>
+    </p>
+    <p>
+      <a class="text-white">Otros</a>
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <hr class="w-100 clearfix d-md-none" />
+
+  <!-- Grid column -->
+  <hr class="w-100 clearfix d-md-none" />
+
+  <!-- Grid column -->
+  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+    <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+    <p><i class="fas fa-home mr-3"></i> Lima, General Cordova 2218, Lince</p>
+    <p><i class="fas fa-envelope mr-3"></i> standbyg2@gmail.com</p>
+    <p><i class="fas fa-phone mr-3"></i> 956 999 222</p>
+    <p><i class="fas fa-print mr-3"></i> 956 995 679</p>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+    <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+    <!-- Facebook -->
+    <a
+       class="btn btn-primary btn-floating m-1"
+       style="background-color: #3b5998"
+       href="https://www.facebook.com/timprazperu"
+       role="button"
+       ><i class="fab fa-facebook-f"></i
+      ></a>
+
+    <!-- Twitter -->
+    <a
+       class="btn btn-primary btn-floating m-1"
+       style="background-color: #55acee"
+       href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+       role="button"
+       ><i class="fab fa-twitter"></i
+      ></a>
+    <!-- Instagram -->
+    <a
+       class="btn btn-primary btn-floating m-1"
+       style="background-color: #ac2bac"
+       href="https://www.instagram.com/elonmusk/"
+       role="button"
+       ><i class="fab fa-instagram"></i
+      ></a>
+  </div>
+</div>
+<!--Grid row-->
+</section>
+<!-- Section: Links -->
+</div>
+<!-- Grid container -->
+
+<!-- Copyright -->
+<div
+ class="text-center p-3"
+ style="background-color: rgba(0, 0, 0, 0.2)"
+ >
+© 2020 Lima, Peru
+
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
